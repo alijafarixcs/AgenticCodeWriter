@@ -123,13 +123,13 @@ It also reads:
 The server address is normalized so it ends in `/v1`. For example:
 
 ```text
-https://telegram.sitebrand.online
+https://your-openai-compatible-server.example
 ```
 
 becomes:
 
 ```text
-https://telegram.sitebrand.online/v1
+https://your-openai-compatible-server.example/v1
 ```
 
 ### Step 3: Create the model client
@@ -414,7 +414,7 @@ notepad .env
 Set the values:
 
 ```env
-UPSTREAM_PUBLIC_BASE_URL=https://telegram.sitebrand.online
+UPSTREAM_PUBLIC_BASE_URL=https://your-openai-compatible-server.example
 UPSTREAM_API_KEY=your-real-api-key
 UPSTREAM_MODEL=auto
 ```
